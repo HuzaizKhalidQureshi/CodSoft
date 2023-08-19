@@ -1,1 +1,221 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fruit Shop Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img
+            src="https://logos-world.net/wp-content/uploads/2022/02/Little-Caesars-Logo.png"
+            alt="Company Logo"
+            id="header-img"
+        /></a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#varieties" class="nav-link">VARIETIES</a>
+          <a href="#our-service" class="nav-link">OUR SERVICES</a>
+          <a href="#benefits" class="nav-link">BENEFITS</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img
+            src="data:image/jpeg;base64,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"
+            alt="Image of Apples"
+          />
+        </div>
+        <div class="eye-grabber">
+          <h1>Fresh, Crispy, Heavenly.</h1>
+          <h2>
+            100% Authentic, flavorful varieties of pizzas crafted in our
+            kitchen, delivering a slice of culinary delight.
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Buy Now
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            We are a team of skilled individuals with decades of expertise in
+            crafting and serving pizzas. Our knowledge extends to understanding
+            the art of pizza making, from selecting the finest ingredients to
+            perfecting the baking process. Crafting a delicious pizza requires a
+            balance of quality toppings, a well-prepared crust, and precise
+            cooking conditions. We take pride in creating a pizza experience
+            that captures the essence of flavors. Just as the right conditions
+            are crucial for apple cultivation, our pizzas thrive in the right
+            blend of ingredients and careful preparation. Just as Kashmir is
+            renowned for its apples, we aim to be synonymous with exceptional
+            pizzas that stand out in taste, texture, and presentation.
+          </p>
+          <img
+            src="https://media.istockphoto.com/id/1155488040/photo/assortment-of-italian-pizzas-in-a-shop-display-female-workers-serving-the-pizzas.jpg?s=612x612&w=0&k=20&c=xBVbBc2C0bcw0pPKWOgO1XCgjjRqSuieSMcH7lZ9GzA="
+            alt="A man plucking apples from the tree"
+          />
+        </div>
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">VARIETIES</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img
+              src="https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_623344781.jpg.webp"
+              alt="photo of amber apples"
+            />
+            <h4>Cheese</h4>
+            <p>
+              It should be no shocker that a classic is the statistical
+              favorite. Cheese pizza is one of the most popular choices. It will
+              always be a simple, unadorned masterpiece on its own.
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_570541132.jpg.webp"
+              alt="photo of american trel apples"
+            />
+            <h4>Vegie</h4>
+            <p>
+              When you want to jazz up your cheese pizza with color and texture,
+              veggies are the perfect topping.
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_514457074.jpg.webp"
+              alt="photo of red delicious apple"
+            />
+            <h4>Pepperoni</h4>
+            <p>
+              There’s a reason this is one of the most popular types of pizza.
+              Who doesn’t love biting into a crispy, salty round of pepperoni?
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_548340295.jpg.webp"
+              alt="photo of Maharaej apples"
+            />
+            <h4>Meat</h4>
+            <p>
+              If pepperoni just isn’t enough, and you’re looking for a pie with
+              a bit more heft, a meat pizza is a perfect and popular choice.
+              Pile on ground beef and sausage for a hearty meal.
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_347791016.jpg.webp"
+              alt="photo of Hazratbael apples"
+            />
+            <h4>Margherita</h4>
+            <p>
+              Deceptively simple, the Margherita pizza is made with basil, fresh
+              mozzarella, and tomatoes. There’s a reason it’s an Italian staple
+              and one of the most popular types of pizza in the country.
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_184944413.jpg.webp"
+              alt="photo of Golden Delicious apples"
+            />
+            <h4>BBQ Chicken</h4>
+            <p>
+              If you love BBQ chicken and you love pizza, why not put them
+              together? This has long been a cult favorite of sports fans and
+              college kids.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">OUR SERVICE</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/w6H542X/Fresh.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fresh</h5>
+              <p>We deliver fresh pizza with a 100% guarantee of freshness.</p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/FKNq4Qr/delivered.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fast</h5>
+              <p>
+                We deliver your orders as fast as possible, delivery procedure
+                begins as soon as apple is plucked from tree.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/HHQK1wV/happy.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Satisfying</h5>
+              <p>
+                We guarantee 100% customer satisfaction. We do our best to make
+                your purchase experience smooth. But if we mess up somehow you
+                will get compensated for every inconvenience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="benefits" class="sec-padding">
+        <h3 class="section-heading">BENEFITS</h3>
+        <div class="sec-content-div flexible">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/YL9T8wtT7Jw?start=10"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>To make an order or just to know more contact us :</h6>
+          <form
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Created by
+      <a href="#">Huzaiz Khalid Qureshi</a>
+    </footer>
+  </body>
+</html>
